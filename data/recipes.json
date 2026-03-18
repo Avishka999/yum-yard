@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "title": "Classic Spaghetti Bolognese",
+    "description": "A rich and hearty Italian meat sauce served over al dente spaghetti, perfect for a comforting family dinner.",
+    "category": "Dinner",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": "4",
+    "ingredients": [
+      "400g spaghetti",
+      "500g ground beef",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "400g canned crushed tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "1 tsp dried basil",
+      "Salt and pepper to taste",
+      "Parmesan cheese to serve"
+    ],
+    "steps": [
+      "Heat olive oil in a large pan over medium heat.",
+      "Sauté onion until translucent, about 5 minutes.",
+      "Add garlic and cook for 1 minute.",
+      "Add ground beef and cook until browned, breaking it up as it cooks.",
+      "Stir in tomato paste, crushed tomatoes, oregano, and basil.",
+      "Season with salt and pepper. Simmer for 30 minutes.",
+      "Cook spaghetti according to package instructions.",
+      "Serve the sauce over spaghetti, topped with Parmesan."
+    ],
+    "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600",
+    "createdAt": "2026-01-10T08:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Fluffy Blueberry Pancakes",
+    "description": "Light, fluffy pancakes bursting with fresh blueberries — the perfect weekend breakfast treat.",
+    "category": "Breakfast",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": "2",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "2 tsp baking powder",
+      "1 tbsp sugar",
+      "1/4 tsp salt",
+      "1 egg",
+      "3/4 cup milk",
+      "2 tbsp melted butter",
+      "1/2 cup fresh blueberries",
+      "Maple syrup to serve"
+    ],
+    "steps": [
+      "Whisk together flour, baking powder, sugar, and salt.",
+      "In another bowl, beat egg, then mix in milk and melted butter.",
+      "Combine wet and dry ingredients until just mixed (lumps are okay).",
+      "Gently fold in blueberries.",
+      "Heat a non-stick pan over medium heat and lightly grease.",
+      "Pour 1/4 cup batter per pancake. Cook until bubbles form, then flip.",
+      "Cook until golden brown. Serve with maple syrup."
+    ],
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600",
+    "createdAt": "2026-01-11T08:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Avocado Toast with Poached Egg",
+    "description": "Creamy mashed avocado on toasted sourdough, topped with a perfectly poached egg and a sprinkle of chili flakes.",
+    "category": "Breakfast",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "servings": "1",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "2 eggs",
+      "1 tbsp white vinegar",
+      "Juice of half a lemon",
+      "Red chili flakes",
+      "Salt and pepper to taste",
+      "Fresh herbs (optional)"
+    ],
+    "steps": [
+      "Toast the sourdough slices until golden.",
+      "Mash avocado with lemon juice, salt, and pepper.",
+      "Bring a pot of water to a gentle simmer, add vinegar.",
+      "Crack eggs into small bowls and gently slide into the water.",
+      "Poach eggs for 3-4 minutes until whites are set.",
+      "Spread avocado on toast, top with poached egg.",
+      "Sprinkle with chili flakes and herbs."
+    ],
+    "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600",
+    "createdAt": "2026-01-12T08:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Chicken Caesar Salad",
+    "description": "Crisp romaine lettuce with grilled chicken, crunchy croutons, and a tangy Caesar dressing.",
+    "category": "Lunch",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "servings": "2",
+    "ingredients": [
+      "2 chicken breasts",
+      "1 large romaine lettuce",
+      "1/2 cup croutons",
+      "1/4 cup Parmesan shavings",
+      "4 tbsp Caesar dressing",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Season chicken with olive oil, salt, and pepper.",
+      "Grill chicken over medium-high heat for 6-7 minutes per side.",
+      "Let chicken rest for 5 minutes, then slice.",
+      "Tear romaine into bite-sized pieces.",
+      "Toss romaine with Caesar dressing.",
+      "Top with chicken slices, croutons, and Parmesan."
+    ],
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600",
+    "createdAt": "2026-01-13T08:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Chocolate Lava Cake",
+    "description": "Individual warm chocolate cakes with a gooey molten center — an indulgent dessert that never fails to impress.",
+    "category": "Dessert",
+    "prepTime": "15 min",
+    "cookTime": "12 min",
+    "servings": "4",
+    "ingredients": [
+      "200g dark chocolate (70%)",
+      "100g unsalted butter",
+      "4 eggs",
+      "4 egg yolks",
+      "100g powdered sugar",
+      "2 tbsp all-purpose flour",
+      "Butter and cocoa for ramekins",
+      "Vanilla ice cream to serve"
+    ],
+    "steps": [
+      "Preheat oven to 220°C (425°F). Butter and dust 4 ramekins with cocoa.",
+      "Melt chocolate and butter together in a double boiler.",
+      "Whisk eggs, yolks, and sugar until pale and thick.",
+      "Fold chocolate mixture into egg mixture.",
+      "Sift in flour and fold gently.",
+      "Divide batter among ramekins. Refrigerate up to 24 hours or bake immediately.",
+      "Bake for 10-12 minutes until edges are set but center jiggles.",
+      "Run a knife around edges and invert onto plates. Serve immediately with ice cream."
+    ],
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600",
+    "createdAt": "2026-01-14T08:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "Vegetable Stir-Fry",
+    "description": "A quick and colorful mix of fresh vegetables tossed in a savory soy-ginger sauce, served over steamed rice.",
+    "category": "Dinner",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": "3",
+    "ingredients": [
+      "2 cups broccoli florets",
+      "1 red bell pepper, sliced",
+      "1 carrot, julienned",
+      "1 zucchini, sliced",
+      "3 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "3 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 tbsp cornstarch",
+      "2 cups cooked rice"
+    ],
+    "steps": [
+      "Mix soy sauce, sesame oil, cornstarch, and 2 tbsp water for the sauce.",
+      "Heat 2 tbsp oil in a wok or large skillet over high heat.",
+      "Add garlic and ginger, stir-fry for 30 seconds.",
+      "Add harder vegetables (carrot, broccoli) first; stir-fry 3 minutes.",
+      "Add remaining vegetables; stir-fry 3-4 minutes until tender-crisp.",
+      "Pour sauce over vegetables and toss until thickened.",
+      "Serve over steamed rice."
+    ],
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
+    "createdAt": "2026-01-15T08:00:00.000Z"
+  }
+]

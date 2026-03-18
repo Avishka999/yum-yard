@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yum Yard — Discover & Share Recipes</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo" id="logo-link">
+        <span class="logo-icon">🍽️</span>
+        <span class="logo-text">Yum Yard</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#" class="nav-link active" id="nav-home">Home</a>
+        <a href="#" class="nav-link" id="nav-add">+ Add Recipe</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page: Home (recipe listing) -->
+  <main id="page-home" class="page active">
+    <section class="hero">
+      <div class="container">
+        <h1>Discover Delicious Recipes</h1>
+        <p>Your personal recipe yard — browse, add, and share meals you love.</p>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search recipes, ingredients…" />
+          <button id="search-btn">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters container">
+      <button class="filter-btn active" data-category="">All</button>
+      <button class="filter-btn" data-category="Breakfast">Breakfast</button>
+      <button class="filter-btn" data-category="Lunch">Lunch</button>
+      <button class="filter-btn" data-category="Dinner">Dinner</button>
+      <button class="filter-btn" data-category="Dessert">Dessert</button>
+      <button class="filter-btn" data-category="Snack">Snack</button>
+    </section>
+
+    <section class="container">
+      <div id="recipes-grid" class="recipes-grid"></div>
+      <p id="no-results" class="no-results hidden">No recipes found. Try a different search or category.</p>
+    </section>
+  </main>
+
+  <!-- Page: Recipe Detail -->
+  <main id="page-detail" class="page">
+    <div class="container">
+      <button class="back-btn" id="back-from-detail">← Back to recipes</button>
+      <div id="recipe-detail-content"></div>
+    </div>
+  </main>
+
+  <!-- Page: Add / Edit Recipe -->
+  <main id="page-form" class="page">
+    <div class="container form-container">
+      <button class="back-btn" id="back-from-form">← Back to recipes</button>
+      <h2 id="form-title">Add New Recipe</h2>
+
+      <form id="recipe-form" novalidate>
+        <input type="hidden" id="recipe-id" />
+
+        <div class="form-group">
+          <label for="f-title">Title *</label>
+          <input type="text" id="f-title" placeholder="Recipe name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="f-description">Description *</label>
+          <textarea id="f-description" rows="3" placeholder="A short description of the dish" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-category">Category *</label>
+            <select id="f-category" required>
+              <option value="">Select category</option>
+              <option value="Breakfast">Breakfast</option>
+              <option value="Lunch">Lunch</option>
+              <option value="Dinner">Dinner</option>
+              <option value="Dessert">Dessert</option>
+              <option value="Snack">Snack</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-servings">Servings</label>
+            <input type="text" id="f-servings" placeholder="e.g. 4" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-preptime">Prep Time</label>
+            <input type="text" id="f-preptime" placeholder="e.g. 15 min" />
+          </div>
+          <div class="form-group">
+            <label for="f-cooktime">Cook Time</label>
+            <input type="text" id="f-cooktime" placeholder="e.g. 30 min" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="f-image">Image URL</label>
+          <input type="url" id="f-image" placeholder="https://…" />
+        </div>
+
+        <div class="form-group">
+          <label>Ingredients * <span class="hint">(one per line)</span></label>
+          <textarea id="f-ingredients" rows="6" placeholder="1 cup flour&#10;2 eggs&#10;1/2 cup milk" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Steps * <span class="hint">(one per line)</span></label>
+          <textarea id="f-steps" rows="8" placeholder="Mix dry ingredients&#10;Add wet ingredients&#10;Bake at 180°C" required></textarea>
+        </div>
+
+        <p id="form-error" class="form-error hidden"></p>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-primary" id="form-submit-btn">Save Recipe</button>
+          <button type="button" class="btn-secondary" id="form-cancel-btn">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>🍽️ Yum Yard &mdash; Made with love for food enthusiasts</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
